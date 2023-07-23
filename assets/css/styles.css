@@ -240,6 +240,10 @@ input {
   }
 }
 
+.p1 {
+  padding-left: 135px
+}
+
 .nav__list {
   display: flex;
   flex-direction: column;
@@ -818,6 +822,8 @@ input {
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 @media screen and (max-width: 340px) {
+
+
   .place__container {
     grid-template-columns: max-content;
     justify-content: center;
@@ -1102,6 +1108,7 @@ input {
   .container {
     max-width: 1024px;
   }
+
 }
 
 /* For tall screens on mobiles y desktop*/
